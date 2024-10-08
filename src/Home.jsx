@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from 'axios';
-import me from "/me.png"
+import me from "/faceme.png"
 import car from "/Car.png"
 import studio from "/MOTION STUDIO.png"
 import SCOOT from "/SCOOT.png"
@@ -8,6 +8,8 @@ import telegram from "/telegram.png"
 import tel from "/phone.png"
 import instagram from "/instagram.png"
 import telegram2 from "/telegram2.png"
+import github from "/github.png"
+import youtube from "/youtube.png"
 import { useTranslation } from "react-i18next";
 
 const Home = () => {
@@ -169,12 +171,18 @@ const { t } = useTranslation();
                           <li className='text-[#EAB308] font-semibold text-[15px] sm:text-[20px] mt-[10px] flex flex-col'>Telegram: <span className='text-black mt-[10px] sm:mt-[0px] dark:text-white'>@A4110</span></li>
                         </a>
                       <li className='text-[#EAB308] text-[15px] mt-[10px] sm:text-[20px] font-semibold flex flex-col'>{t("profiles")}</li>
-                      <div className="flex flex-row justify-center sm:items-center mt-[10px] sm:justify-start  gap-[10px] sm:mt-[5px]">
+                      <div className="flex flex-row justify-center sm:items-center mt-[10px] sm:justify-start items-center  gap-[10px] sm:mt-[5px]">
                         <a href="https://www.instagram.com/abdusolih_xalilov/">
-                          <img className="w-[35px]" src={instagram} alt="instagram" />
+                          <img className="w-[35px] animate-pulse duration-[200ms]" src={instagram} alt="instagram" />
                         </a>
-                        <a href="https://t.me/A4110">
+                        <a href="https://t.me/A4110" className="animate-pulse duration-[400ms]">
                           <img className="w-[35px]" src={telegram2} alt="telegram" />
+                        </a>
+                        <a href="https://github.com/Abdusolih" className="animate-pulse duration-[600ms]">
+                          <img className="w-[35px]" src={github} alt="github" />
+                        </a>
+                        <a href="https://youtube.com/@abdusolihxalilov?si=8YIW4Nub_ebfontG" className="animate-pulse duration-[800ms]">
+                            <img className="w-[35px]" src={youtube} alt="github" />
                         </a>
                       </div>
                     </ul>
