@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import axios from 'axios';
-import me from "/faceme.png"
+import me from "/me.png"
 import car from "/Car.png"
 import studio from "/MOTION STUDIO.png"
-import SCOOT from "/SCOOT.png"
+import cryoptos from "/cryoptos.png"
 import telegram from "/telegram.png"
 import tel from "/phone.png"
 import instagram from "/instagram.png"
@@ -106,7 +106,7 @@ const { t } = useTranslation();
                 <div className="font-bold text-[15px] lg:text-[20px]">
                   <h1>{t("name1")}</h1>
                   <h1>{t("surname")}</h1>
-                  <h1>{t("birthday")}</h1>
+                  <h1 className="text-[12px] sm:text-[20px]">{t("birthday")}</h1>
                   <h1>{t("nation")}</h1>
                 </div>
                 <div className="text-[#6B7280] font-medium text-[15px] lg:text-[20px]">
@@ -139,18 +139,24 @@ const { t } = useTranslation();
           <h1 className="font-mono text-[20px] lg:text-[30px] border-b-[2px] border-[#FACC15]">{t("projects")} <span className="text-[#FACC15]">{t("projects1")}</span></h1>
         </div>
         <section className="flex flex-col items-center lg:items-center justify-center sm:flex-row gap-[30px]">
-          <div className="bg-slate-50 pt-[10px] px-[10px] w-[200px] lg:w-[400px] rounded-xl dark:bg-slate-800 duration-300 hover:scale-105 cursor-pointer">
+          <a href="https://polche-car.vercel.app/login.html">
+            <div className="bg-slate-50 pt-[10px] px-[10px] w-[200px] lg:w-[400px] rounded-xl dark:bg-slate-800 duration-300 hover:scale-105 cursor-pointer">
             <img className="w-[400px] rounded-xl border-b-2 border-t-2 border-[#FACC15]" src={car} />
             <h1 className="font-mono text-[20px] flex justify-center">Rent Cars</h1>
-          </div>
-          <div className="bg-slate-50 pt-[10px] px-[10px] w-[200px] lg:w-[400px] rounded-xl dark:bg-slate-800 duration-300 hover:scale-105 cursor-pointer">
-            <img className="w-[400px] rounded-xl border-b-2 border-t-2 border-[#FACC15]" src={studio} />
-            <h1 className="font-mono text-[20px] flex justify-center">MOTION STUDIO</h1>
-          </div>
-          <div className="bg-slate-50 pt-[10px] px-[10px] w-[200px] lg:w-[400px] rounded-xl dark:bg-slate-800 duration-300 hover:scale-105 cursor-pointer">
-            <img className="w-[400px] rounded-xl border-b-2 border-t-2 border-[#FACC15]" src={SCOOT} />
-            <h1 className="font-mono text-[20px] flex justify-center">SCOOT</h1>
-          </div>
+            </div>
+          </a>
+          <a href="https://motion-studio.vercel.app/">
+            <div className="bg-slate-50 pt-[10px] px-[10px] w-[200px] lg:w-[400px] rounded-xl dark:bg-slate-800 duration-300 hover:scale-105 cursor-pointer">
+              <img className="w-[400px] rounded-xl border-b-2 border-t-2 border-[#FACC15]" src={studio} />
+              <h1 className="font-mono text-[20px] flex justify-center">MOTION STUDIO</h1>
+            </div>
+          </a>
+          <a href="https://cryoptos.vercel.app/">
+            <div className="bg-slate-50 pt-[10px] px-[10px] w-[200px] lg:w-[400px] rounded-xl dark:bg-slate-800 duration-300 hover:scale-105 cursor-pointer">
+              <img className="w-[400px] rounded-xl border-b-2 border-t-2 border-[#FACC15]" src={cryoptos} />
+              <h1 className="font-mono text-[20px] flex justify-center">CRYOPTOS</h1>
+            </div>
+          </a>
         </section>
       </section>
       <section className="font-mono container w-[300px] sm:w-[1000px]">
