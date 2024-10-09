@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from 'axios';
-import me from "/me.png"
+import me from "/me.jpg"
 import car from "/Car.png"
 import studio from "/MOTION STUDIO.png"
 import cryoptos from "/cryoptos.png"
@@ -80,7 +80,7 @@ const { t } = useTranslation();
     <main className="py-[20px] text-black dark:text-white bg-white dark:bg-slate-900 duration-300">
       <section className="container px-[30px] sm:px-[0px] pt-[110px] pb-[50px]">
         <div className="hero">
-          <div className="bg-slate-50 py-[45px] px-[80px] dark:bg-slate-800 duration-300 rounded-xl flex flex-col lg:flex-row justify-between items-center">
+          <div className="bg-slate-50 py-[45px] px-[80px] dark:bg-slate-800 duration-300 rounded-xl flex flex-col lg:flex-row justify-between items-center sm:px-[130px]">
             <div className="w-[250px] flex flex-col text-center items-center lg:w-[470px] lg:text-start lg:items-start">
               <span className="text-[#FACC15] text-[14px] lg:text-[17px] font-mono">{t("herospan")}</span>
               <h1 className="text-[30px] lg:text-[50px] font-mono">{t("name")}</h1>
@@ -89,7 +89,7 @@ const { t } = useTranslation();
                 <button className="bg-[#FACC15] text-white py-[4px] px-[10px] lg:py-[5px] lg:px-[15px] rounded-md hover:bg-[#facc15ad] duration-300 hover:scale-95 font-mono flex flex-row items-center gap-[10px]">{t("tel")} <img className="w-[20px]" src={tel} alt="" /></button>
               </a>
             </div>
-            <img className="w-[200px] mt-[30px] bg-slate-100 lg:bg-slate-100 rounded-2xl lg:w-[350px] dark:bg-slate-900 duration-300" src={me} />
+            <img className="w-[200px] mt-[30px] bg-slate-100 lg:bg-slate-100 rounded-2xl lg:w-[260px] dark:bg-slate-900 duration-300" src={me} />
           </div>
         </div>
       </section>
@@ -179,16 +179,16 @@ const { t } = useTranslation();
                       <li className='text-[#EAB308] text-[15px] mt-[10px] sm:text-[20px] font-semibold flex flex-col'>{t("profiles")}</li>
                       <div className="flex flex-row justify-center sm:items-center mt-[10px] sm:justify-start items-center  gap-[10px] sm:mt-[5px]">
                         <a href="https://www.instagram.com/abdusolih_xalilov/">
-                          <img className="w-[35px] animate-pulse duration-[200ms]" src={instagram} alt="instagram" />
+                          <img className="w-[35px] animate-pulse" src={instagram} alt="instagram" />
                         </a>
-                        <a href="https://t.me/A4110" className="animate-pulse duration-[400ms]">
-                          <img className="w-[35px]" src={telegram2} alt="telegram" />
+                        <a href="https://t.me/A4110">
+                          <img className="w-[35px] animate-pulse" src={telegram2} alt="telegram" />
                         </a>
-                        <a href="https://github.com/Abdusolih" className="animate-pulse duration-[600ms]">
-                          <img className="w-[35px]" src={github} alt="github" />
+                        <a href="https://github.com/Abdusolih">
+                          <img className="w-[35px] animate-pulse" src={github} alt="github" />
                         </a>
-                        <a href="https://youtube.com/@abdusolihxalilov?si=8YIW4Nub_ebfontG" className="animate-pulse duration-[800ms]">
-                            <img className="w-[35px]" src={youtube} alt="github" />
+                        <a href="https://youtube.com/@abdusolihxalilov?si=8YIW4Nub_ebfontG">
+                            <img className="w-[35px] animate-pulse" src={youtube} alt="github" />
                         </a>
                       </div>
                     </ul>
