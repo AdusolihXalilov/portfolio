@@ -243,7 +243,7 @@ const { t } = useTranslation();
                                 onChange={handleChange}
                                 placeholder=''/>
                         </label>
-                        <button type="submit" className='bg-[#FACC15] hover:bg-yellow-500 duration-300 w-[113px] p-2 rounded text-white flex flex-row items-center gap-[10px]'>{t("send")} <img className="w-[15px]" src={telegram} alt="" /></button>
+                        <button type="submit" className='bg-[#FACC15] hover:bg-yellow-500 duration-300 w-[103x`px] p-2 rounded text-white flex flex-row items-center gap-[10px]'>{t("send")} <img className="w-[15px]" src={telegram} alt="" /></button>
                         {error && <p className='text-red-500 mt-2'>{error}</p>}
                     </div>
                 </div>
