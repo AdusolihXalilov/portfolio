@@ -106,7 +106,7 @@ const { t } = useTranslation();
                 <div className="font-bold text-[15px] lg:text-[20px]">
                   <h1>{t("name1")}</h1>
                   <h1>{t("surname")}</h1>
-                  <h1 className="text-[12px] sm:text-[20px]">{t("birthday")}</h1>
+                  <h1>{t("birthday")}</h1>
                   <h1>{t("nation")}</h1>
                 </div>
                 <div className="text-[#6B7280] font-medium text-[15px] lg:text-[20px]">
