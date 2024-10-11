@@ -165,7 +165,7 @@ const { t } = useTranslation();
           <h1 className="font-mono text-[20px] lg:text-[30px] border-b-[2px] border-[#FACC15]">{t("communication")}<span className="text-[#FACC15]">{t("communication1")}</span></h1>
         </div>
         <section className='text-black dark:text-white bg-slate-50 dark:bg-slate-800 px-[10px] sm:px-[80px] py-[20px] sm:py-[40px] rounded-xl duration-300 flex flex-col justify-center items-center'>
-            <h1 className="text-[13px] sm:text-[25px]">{t("write")}</h1>
+            <h1 className="text-[15px] sm:text-[25px]">{t("write")}</h1>
             <p className='text-[#9CA3AF] font-semibold mb-[70px] text-center text-[12px] mt-[10px] sm:text-[17px]'>{t("please")}</p>
             <section className='container flex flex-col lg:flex-row justify-between items-center'> 
                 <div className='text-white bg-slate-100 duration-300 dark:bg-slate-700 rounded-xl w-[250px] items-center text-center sm:w-[300px] py-[40px] px-[20px] sm:text-start flex flex-col gap-5'>
