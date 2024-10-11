@@ -97,19 +97,19 @@ const { t } = useTranslation();
         <div className="flex flex-row items-center justify-center mb-[50px]">
           <h1 className="font-mono text-[20px] lg:text-[30px] border-b-[2px] border-[#FACC15]">{t("aboutme")} <span className="text-[#FACC15]">{t("aboutme1")}</span></h1>
         </div>
-        <section className="bg-slate-50 py-[40px] px-[35px] lg:px-[80px] dark:bg-slate-800 duration-300 rounded-xl">
+        <section className="bg-slate-50 py-[40px] px-[30px] lg:px-[80px] dark:bg-slate-800 duration-300 rounded-xl">
           <div>
             <h1 className="font-mono text-[15px] lg:text-[20px]">{t("information")}</h1>
             <p className="font-mono text-[15px] lg:text-[20px]  mt-[10px]">{t("location")}</p>
             <div className="flex flex-col gap-[20px] lg:flex-row items-center lg:gap-[150px] mt-[40px]">
               <div className="flex flex-row  gap-[50px] lg:items-center lg:gap-[30px] font-mono">
-                <div className="font-bold text-[15px] lg:text-[20px]">
+                <div className="font-bold text-[13px] lg:text-[20px]">
                   <h1>{t("name1")}</h1>
                   <h1>{t("surname")}</h1>
                   <h1>{t("birthday")}</h1>
                   <h1>{t("nation")}</h1>
                 </div>
-                <div className="text-[#6B7280] font-medium text-[15px] lg:text-[20px]">
+                <div className="text-[#6B7280] font-medium text-[13px] lg:text-[20px]">
                   <h1>Abdusolih</h1>
                   <h1>Xalilov</h1>
                   <h1>07.02.2011</h1>
@@ -117,14 +117,14 @@ const { t } = useTranslation();
                 </div>
               </div>
               <div className="flex flex-row items-center justify-center gap-[15px] lg:items-center lg:gap-[30px] font-mono">
-                <div className="font-bold text-[15px] lg:text-[20px]">
+                <div className="font-bold text-[13px] lg:text-[20px]">
                   <h1>{t("number")}</h1>
                   <h1>{t("address")}</h1>
                   <h1>{t("language")}</h1>
                   <h1>{t("telegram")}</h1>
                 </div>
                 <div className="text-[#6B7280] font-medium text-[13px] lg:text-[20px]">
-                  <a href="tel:996445947"><h1>+998 99 644 59 47</h1></a>
+                  <a href="tel:996445947"><h1>99 644 59 47</h1></a>
                   <h1>{t("tashkent")}</h1>
                   <h1>{t("til")}</h1>
                   <a href="https://t.me/A4110"><h1>@A4110</h1></a>
@@ -157,6 +157,7 @@ const { t } = useTranslation();
               <h1 className="font-mono text-[20px] flex justify-center">CRYOPTOS</h1>
             </div>
           </a>
+         
         </section>
       </section>
       <section className="font-mono container w-[300px] sm:w-[1000px]">
@@ -164,7 +165,7 @@ const { t } = useTranslation();
           <h1 className="font-mono text-[20px] lg:text-[30px] border-b-[2px] border-[#FACC15]">{t("communication")}<span className="text-[#FACC15]">{t("communication1")}</span></h1>
         </div>
         <section className='text-black dark:text-white bg-slate-50 dark:bg-slate-800 px-[10px] sm:px-[80px] py-[20px] sm:py-[40px] rounded-xl duration-300 flex flex-col justify-center items-center'>
-            <h1 className="text-[15px] sm:text-[25px]">{t("write")}</h1>
+            <h1 className="text-[14px] sm:text-[25px]">{t("write")}</h1>
             <p className='text-[#9CA3AF] font-semibold mb-[70px] text-center text-[12px] mt-[10px] sm:text-[17px]'>{t("please")}</p>
             <section className='container flex flex-col lg:flex-row justify-between items-center'> 
                 <div className='text-white bg-slate-100 duration-300 dark:bg-slate-700 rounded-xl w-[250px] items-center text-center sm:w-[300px] py-[40px] px-[20px] sm:text-start flex flex-col gap-5'>
