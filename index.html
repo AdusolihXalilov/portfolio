@@ -7,6 +7,21 @@
     <title>Abdusolih Xalilov's Portfolio</title>
   </head>
   <body>
+    <style>
+      @keyframes swing {
+        0% { transform: rotate(0deg); }
+        25% { transform: rotate(-9deg); }
+        50% { transform: rotate(9deg); }
+        75% { transform: rotate(-9deg); }
+        100% { transform: rotate(0deg); }
+      }
+      
+      .animate-swing-small {
+        display: inline-block;
+        animation: swing 3s ease-in-out infinite;
+      }
+      </style>
+      
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
