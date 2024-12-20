@@ -10,6 +10,7 @@ import instagram from "/instagram.png";
 import telegram2 from "/telegram2.png";
 import github from "/github.png";
 import youtube from "/youtube.png";
+import faceme from "/faceme.png"
 import { useTranslation } from "react-i18next";
 
 const Home = () => {
@@ -99,7 +100,7 @@ const Home = () => {
             </div>
             <img
               className="w-[200px] mt-[30px] bg-slate-100 lg:bg-slate-100 rounded-2xl lg:w-[260px] dark:bg-slate-900 duration-300"
-              src={me}
+              src={faceme}
             />
           </div>
         </div>
