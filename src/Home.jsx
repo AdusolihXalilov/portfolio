@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import axios from "axios";
-import me from "/me.jpg";
 import car from "/Car.png";
 import studio from "/MOTION STUDIO.png";
 import cryoptos from "/cryoptos.png";
@@ -11,6 +10,7 @@ import telegram2 from "/telegram2.png";
 import github from "/github.png";
 import youtube from "/youtube.png";
 import faceme from "/faceme.png"
+import learnifyjs from "/learnifyjs.png"
 import { useTranslation } from "react-i18next";
 
 const Home = () => {
@@ -164,40 +164,53 @@ const Home = () => {
             <span className="text-[#FACC15]">{t("projects1")}</span>
           </h1>
         </div>
-        <section className="flex flex-col items-center lg:items-center justify-center sm:flex-row gap-[30px]">
-          <a href="https://polche-car.vercel.app/login.html">
-            <div className="bg-slate-50 pt-[10px] px-[10px] w-[200px] lg:w-[400px] rounded-xl dark:bg-slate-800 duration-300 hover:scale-105 cursor-pointer">
-              <img
-                className="w-[400px] rounded-xl border-b-2 border-t-2 border-[#FACC15]"
-                src={car}
-              />
-              <h1 className="font-mono text-[20px] flex justify-center">
-                Rent Cars
-              </h1>
-            </div>
-          </a>
-          <a href="https://motion-studio.vercel.app/">
-            <div className="bg-slate-50 pt-[10px] px-[10px] w-[200px] lg:w-[400px] rounded-xl dark:bg-slate-800 duration-300 hover:scale-105 cursor-pointer">
-              <img
-                className="w-[400px] rounded-xl border-b-2 border-t-2 border-[#FACC15]"
-                src={studio}
-              />
-              <h1 className="font-mono text-[20px] flex justify-center">
-                MOTION STUDIO
-              </h1>
-            </div>
-          </a>
-          <a href="https://cryoptos.vercel.app/">
-            <div className="bg-slate-50 pt-[10px] px-[10px] w-[200px] lg:w-[400px] rounded-xl dark:bg-slate-800 duration-300 hover:scale-105 cursor-pointer">
-              <img
-                className="w-[400px] rounded-xl border-b-2 border-t-2 border-[#FACC15]"
-                src={cryoptos}
-              />
-              <h1 className="font-mono text-[20px] flex justify-center">
-                CRYOPTOS
-              </h1>
-            </div>
-          </a>
+        <section className="flex flex-col items-center lg:items-center justify-center sm:flex-col gap-[30px]">
+        <div className="flex flex-col items-center xl:flex-row lg:items-center justify-center lg:flex-col sm:flex-row gap-[30px]">
+            <a href="https://polche-car.vercel.app/login.html">
+              <div className="bg-slate-50 pt-[10px] px-[10px] w-[200px] lg:w-[400px] rounded-xl dark:bg-slate-800 duration-300 hover:scale-105 cursor-pointer">
+                <img
+                  className="w-[400px] rounded-xl border-b-2 border-t-2 border-[#FACC15]"
+                  src={car}
+                />
+                <h1 className="font-mono text-[20px] flex justify-center">
+                  Rent Cars
+                </h1>
+              </div>
+            </a>
+            <a href="https://motion-studio.vercel.app/">
+              <div className="bg-slate-50 pt-[10px] px-[10px] w-[200px] lg:w-[400px] rounded-xl dark:bg-slate-800 duration-300 hover:scale-105 cursor-pointer">
+                <img
+                  className="w-[400px] rounded-xl border-b-2 border-t-2 border-[#FACC15]"
+                  src={studio}
+                />
+                <h1 className="font-mono text-[20px] flex justify-center">
+                  MOTION STUDIO
+                </h1>
+              </div>
+            </a>
+            <a href="https://cryoptos.vercel.app/">
+              <div className="bg-slate-50 pt-[10px] px-[10px] w-[200px] lg:w-[400px] rounded-xl dark:bg-slate-800 duration-300 hover:scale-105 cursor-pointer">
+                <img
+                  className="w-[400px] rounded-xl border-b-2 border-t-2 border-[#FACC15]"
+                  src={cryoptos}
+                />
+                <h1 className="font-mono text-[20px] flex justify-center">
+                  CRYOPTOS
+                </h1>
+              </div>
+            </a>
+          </div>
+          <a href="https:/www.learnifyjs.uz">
+              <div className="bg-slate-50 pt-[10px] px-[10px] w-[200px] lg:w-[400px] rounded-xl dark:bg-slate-800 duration-300 hover:scale-105 cursor-pointer">
+                <img
+                  className="w-[400px] rounded-xl border-b-2 border-t-2 border-[#FACC15]"
+                  src={learnifyjs}
+                />
+                <h1 className="font-mono text-[20px] flex justify-center">
+                  Learn Ify
+                </h1>
+              </div>
+            </a>
         </section>
       </section>
       <section className="font-mono container w-[300px] sm:w-[1000px]">
