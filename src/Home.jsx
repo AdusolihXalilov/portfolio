@@ -257,28 +257,28 @@ const Home = () => {
                 <div className="flex flex-row justify-center sm:items-center mt-[10px] sm:justify-start items-center  gap-[10px] sm:mt-[5px]">
                   <a href="https://www.instagram.com/abdusolih_xalilov/">
                     <img
-                      className="w-[35px] animate-pulse"
+                      className="w-[35px] hover:animate-pulse"
                       src={instagram}
                       alt="instagram"
                     />
                   </a>
                   <a href="https://t.me/A4110">
                     <img
-                      className="w-[35px] animate-pulse"
+                      className="w-[35px] hover:animate-pulse"
                       src={telegram2}
                       alt="telegram"
                     />
                   </a>
                   <a href="https://github.com/Abdusolih">
                     <img
-                      className="w-[35px] animate-pulse"
+                      className="w-[35px] hover:animate-pulse"
                       src={github}
                       alt="github"
                     />
                   </a>
                   <a href="https://youtube.com/@abdusolihxalilov?si=8YIW4Nub_ebfontG">
                     <img
-                      className="w-[35px] animate-pulse"
+                      className="w-[35px] hover:animate-pulse"
                       src={youtube}
                       alt="github"
                     />
