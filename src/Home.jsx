@@ -11,6 +11,7 @@ import github from "/github.png";
 import youtube from "/youtube.png";
 import faceme from "/faceme.png"
 import learnifyjs from "/learnifyjs.png"
+import me from "/me_pixar_picture.jpg"
 import { useTranslation } from "react-i18next";
 
 const Home = () => {
@@ -100,7 +101,7 @@ const Home = () => {
             </div>
             <img
               className="w-[200px] mt-[30px] bg-slate-100 lg:bg-slate-100 rounded-2xl lg:w-[260px] dark:bg-slate-900 duration-300"
-              src={faceme}
+              src={me}
             />
           </div>
         </div>
