@@ -178,7 +178,7 @@ const Home = () => {
                 </h1>
               </div>
             </a>
-            <a href="https://digital-project-git-main-abdusolihs-projects.vercel.app/">
+            <a href="https://digital-project-seven.vercel.app/">
               <div className="bg-slate-50 pt-[10px] px-[10px] w-[200px] lg:w-[400px] rounded-xl dark:bg-slate-800 duration-300 hover:scale-105 cursor-pointer">
                 <img
                   className="w-[400px] rounded-xl border-b-2 border-t-2 border-[#FACC15]"
@@ -189,7 +189,7 @@ const Home = () => {
                 </h1>
               </div>
             </a>
-            <a href="https://jet-app-git-main-abdusolihs-projects.vercel.app/">
+            <a href="https://jet-eight.vercel.app/">
                 <div className="bg-slate-50 pt-[10px] px-[10px] w-[200px] lg:w-[400px] rounded-xl dark:bg-slate-800 duration-300 hover:scale-105 cursor-pointer">
                   <img
                     className="w-[400px] rounded-xl border-b-2 border-t-2 border-[#FACC15]"
