@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
 import car from "/Car.png";
-import studio from "/MOTION STUDIO.png";
-import cryoptos from "/cryoptos.png";
 import telegram from "/telegram.png";
 import tel from "/phone.png";
 import instagram from "/instagram.png";
@@ -12,6 +10,7 @@ import youtube from "/youtube.png";
 import faceme from "/faceme.png"
 import learnifyjs from "/learnifyjs.png"
 import JET from "/JET.png"
+import digital from "/digital_projects.png"
 import me from "/me_pixar_picture.jpg"
 import { useTranslation } from "react-i18next";
 
@@ -179,28 +178,28 @@ const Home = () => {
                 </h1>
               </div>
             </a>
-            <a href="https://motion-studio.vercel.app/">
+            <a href="digital-project-snowy.vercel.app">
               <div className="bg-slate-50 pt-[10px] px-[10px] w-[200px] lg:w-[400px] rounded-xl dark:bg-slate-800 duration-300 hover:scale-105 cursor-pointer">
                 <img
                   className="w-[400px] rounded-xl border-b-2 border-t-2 border-[#FACC15]"
-                  src={studio}
+                  src={digital}
                 />
                 <h1 className="font-mono text-[20px] flex justify-center">
-                  MOTION STUDIO
+                  DIGITAL PROJECTS
                 </h1>
               </div>
             </a>
-            <a href="https://cryoptos.vercel.app/">
-              <div className="bg-slate-50 pt-[10px] px-[10px] w-[200px] lg:w-[400px] rounded-xl dark:bg-slate-800 duration-300 hover:scale-105 cursor-pointer">
-                <img
-                  className="w-[400px] rounded-xl border-b-2 border-t-2 border-[#FACC15]"
-                  src={cryoptos}
-                />
-                <h1 className="font-mono text-[20px] flex justify-center">
-                  CRYOPTOS
-                </h1>
-              </div>
-            </a>
+            <a href="jet-app-ten.vercel.app">
+                <div className="bg-slate-50 pt-[10px] px-[10px] w-[200px] lg:w-[400px] rounded-xl dark:bg-slate-800 duration-300 hover:scale-105 cursor-pointer">
+                  <img
+                    className="w-[400px] rounded-xl border-b-2 border-t-2 border-[#FACC15]"
+                    src={JET}
+                  />
+                  <h1 className="font-mono text-[20px] flex justify-center">
+                    JET
+                  </h1>
+                </div>
+              </a>
           </div>
           <div className="flex flex-col items-center xl:flex-row lg:items-center justify-center lg:flex-col sm:flex-row gap-[30px]">
             <a href="https://www.learnifyjs.uz/">
@@ -211,17 +210,6 @@ const Home = () => {
                   />
                   <h1 className="font-mono text-[20px] flex justify-center">
                     Learn Ify
-                  </h1>
-                </div>
-              </a>
-              <a href="https://jet-liard.vercel.app/">
-                <div className="bg-slate-50 pt-[10px] px-[10px] w-[200px] lg:w-[400px] rounded-xl dark:bg-slate-800 duration-300 hover:scale-105 cursor-pointer">
-                  <img
-                    className="w-[400px] rounded-xl border-b-2 border-t-2 border-[#FACC15]"
-                    src={JET}
-                  />
-                  <h1 className="font-mono text-[20px] flex justify-center">
-                    JET
                   </h1>
                 </div>
               </a>
