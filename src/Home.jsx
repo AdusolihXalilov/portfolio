@@ -185,7 +185,7 @@ const Home = () => {
                   src={digital}
                 />
                 <h1 className="font-mono text-[20px] flex justify-center items-center">
-                  DIGITAL PROJECTS
+                  DIGITAL
                 </h1>
               </div>
             </a>
