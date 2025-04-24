@@ -184,7 +184,7 @@ const Home = () => {
                   className="w-[400px] rounded-xl border-b-2 border-t-2 border-[#FACC15]"
                   src={digital}
                 />
-                <h1 className="font-mono text-[20px] flex justify-center">
+                <h1 className="font-mono text-[20px] flex justify-center items-center">
                   DIGITAL PROJECTS
                 </h1>
               </div>
