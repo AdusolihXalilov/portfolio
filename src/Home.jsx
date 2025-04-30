@@ -11,6 +11,7 @@ import faceme from "/faceme.png"
 import learnifyjs from "/learnifyjs.png"
 import JET from "/JET.png"
 import digital from "/digital_projects.png"
+import bella from "/bella.png"
 import me from "/me_pixar_picture.jpg"
 import { useTranslation } from "react-i18next";
 
@@ -167,7 +168,7 @@ const Home = () => {
         </div>
         <section className="flex flex-col items-center lg:items-center justify-center sm:flex-col gap-[30px]">
         <div className="flex flex-col items-center xl:flex-row lg:items-center justify-center lg:flex-col sm:flex-row gap-[30px]">
-            <a href="https://polche-car.vercel.app/login.html">
+            <a href="https://polche-car.vercel.app/login.html" target="_blank" rel="noopener noreferrer">
               <div className="bg-slate-50 pt-[10px] px-[10px] w-[200px] lg:w-[400px] rounded-xl dark:bg-slate-800 duration-300 hover:scale-105 cursor-pointer">
                 <img
                   className="w-[400px] rounded-xl border-b-2 border-t-2 border-[#FACC15]"
@@ -178,7 +179,7 @@ const Home = () => {
                 </h1>
               </div>
             </a>
-            <a href="https://digital-project-seven.vercel.app/">
+            <a href="https://digital-project-seven.vercel.app/" target="_blank" rel="noopener noreferrer">
               <div className="bg-slate-50 pt-[10px] px-[10px] w-[200px] lg:w-[400px] rounded-xl dark:bg-slate-800 duration-300 hover:scale-105 cursor-pointer">
                 <img
                   className="w-[400px] rounded-xl border-b-2 border-t-2 border-[#FACC15]"
@@ -189,7 +190,7 @@ const Home = () => {
                 </h1>
               </div>
             </a>
-            <a href="https://jet-eight.vercel.app/">
+            <a href="https://jet-eight.vercel.app/" target="_blank" rel="noopener noreferrer">
                 <div className="bg-slate-50 pt-[10px] px-[10px] w-[200px] lg:w-[400px] rounded-xl dark:bg-slate-800 duration-300 hover:scale-105 cursor-pointer">
                   <img
                     className="w-[400px] rounded-xl border-b-2 border-t-2 border-[#FACC15]"
@@ -202,7 +203,7 @@ const Home = () => {
               </a>
           </div>
           <div className="flex flex-col items-center xl:flex-row lg:items-center justify-center lg:flex-col sm:flex-row gap-[30px]">
-            <a href="https://www.learnifyjs.uz/">
+            <a href="https://www.learnifyjs.uz/" target="_blank" rel="noopener noreferrer">
                 <div className="bg-slate-50 pt-[10px] px-[10px] w-[200px] lg:w-[400px] rounded-xl dark:bg-slate-800 duration-300 hover:scale-105 cursor-pointer">
                   <img
                     className="w-[400px] rounded-xl border-b-2 border-t-2 border-[#FACC15]"
@@ -210,6 +211,17 @@ const Home = () => {
                   />
                   <h1 className="font-mono text-[20px] flex justify-center">
                     Learn Ify
+                  </h1>
+                </div>
+              </a>
+              <a href="https://foodapp-snowy-seven.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <div className="bg-slate-50 pt-[10px] px-[10px] w-[200px] lg:w-[400px] rounded-xl dark:bg-slate-800 duration-300 hover:scale-105 cursor-pointer">
+                  <img
+                    className="w-[400px] rounded-xl border-b-2 border-t-2 border-[#FACC15]"
+                    src={bella}
+                  />
+                  <h1 className="font-mono text-[20px] flex justify-center">
+                    Bella Olange
                   </h1>
                 </div>
               </a>

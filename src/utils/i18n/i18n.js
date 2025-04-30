@@ -7,7 +7,7 @@ const resources = {
     translation: {
       herospan: "Hello, welcome",
       name: "My name is Abdusolih Xalilov",
-      malumot: "Frontend web developer",
+      malumot: "Fullstack web developer",
       tel: "Connection",
       aboutme: "ABOUT",
       aboutme1: "ME",
@@ -41,7 +41,7 @@ const resources = {
     translation: {
       herospan: "Привет, добро пожаловать",
       name: "Меня зовут Абдусалих Халилов",
-      malumot: "Фронтенд веб-разработчик",
+      malumot: "Fullstack веб-разработчик",
       tel: "Связь",
       aboutme: "ОБО",
       aboutme1: "МНЕ",
@@ -75,7 +75,7 @@ const resources = {
     translation: {
       herospan: "Salom, xush kelibsiz",
       name: "Men Abdusolih Xalilov man",
-      malumot: "Frontend web dasturchi",
+      malumot: "Fullstack web dasturchi",
       tel: "Bog'lanish",
       aboutme: "MEN",
       aboutme1: "HAQIMDA",
